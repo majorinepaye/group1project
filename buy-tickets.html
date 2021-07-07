@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheEvents</title>
+
+    <!-- Favicons -->
+    <link href="img/favicon.jpg" rel="icon" />
+    <link href="img/apple-touch-icon.jpg" rel="apple-touch-icon" />
+
+    <!-- font-awesome link  -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- CSS link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--==========================
+    Header
+  ============================-->
+    <header id="header">
+      <div class="header-bg">
+        <div id="logo" class="pull-left">
+          <h1><a href="#main">G<span>roup</span>1</a></h1>
+        </div>
+
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="speaker.html">Speakers</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="venue.html">Venue</a></li>
+            <li><a href="hotals.html">Hotels</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="supporters.html">Sponsors</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="buy-tickets"><a href="#">Buy Tickets</a></li>
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
+      </div>
+    </header>
+    <!-- #header -->
+
+    <!--==========================
+      Buy Ticket Section
+    ============================-->
+    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
+      <div class="header-bg">
+        <div class="section-header">
+          <h2>Buy Tickets</h2>
+          <p>
+            Ticket are availible on Starz Campuses Duport Road, Main & New Campus.
+          </p>
+        </div>
+
+        <div class="row ceter">
+          <div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Regular</h5>
+                <h6 class="card-price text-center">$150</h6>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fa fa-check"></i></span
+                    >Regular Seating
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fa fa-check"></i></span>Coffee
+                    Break
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fa fa-check"></i></span>Custom
+                    Badge
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fa fa-times"></i></span>After
+                    Party
+                  </li>
+                </ul>
+                <hr />
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn"
+                    data-toggle="modal"
+                    data-target="#buy-ticket-modal"
+                    data-ticket-type="standard-access"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Around VIP</h5>
+                <h6 class="card-price text-center">$250</h6>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fa fa-check"></i></span
+                    >Regular Seating
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fa fa-check"></i></span>Coffee
+                    Break
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fa fa-check"></i></span>Custom
+                    Badge
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fa fa-times"></i></span>After
+                    Party
+                  </li>
+                </ul>
+                <hr />
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn"
+                    data-toggle="modal"
+                    data-target="#buy-ticket-modal"
+                    data-ticket-type="pro-access"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Pro Tier -->
+          <div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">VIP</h5>
+                <h6 class="card-price">$350</h6>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fa fa-check"></i></span
+                    >Regular Seating
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fa fa-check"></i></span>Coffee
+                    Break
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fa fa-check"></i></span>Custom
+                    Badge
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fa fa-check"></i></span>After
+                    Party
+                  </li>
+                </ul>
+                <hr />
+                <div class="text-center">
+                  <button
+                    type="button"
+                    class="btn"
+                    data-toggle="modal"
+                    data-target="#buy-ticket-modal"
+                    data-ticket-type="premium-access"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+    Footer
+  ============================-->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong>GroupOne</strong>. All Rights Reserved
+        </div>
+        <div class="credits">Designed by <a href="#">Group 1</a></div>
+      </div>
+    </footer>
+    <!-- #footer -->
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
